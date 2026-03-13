@@ -1,0 +1,55 @@
+{
+  "calendar": "生化重构执行",
+  "reminders": [
+    {
+      "title": "🌅 视网膜曝光",
+      "time": "08:00",
+      "notes": "拉窗帘直视自然光 5-10 分钟",
+      "priority": 1,
+      "repeat_daily": true
+    },
+    {
+      "title": "🧂 电解质防御",
+      "time": "10:30",
+      "notes": "心慌/手抖→立刻盐温水，绝对禁食",
+      "priority": 1,
+      "repeat_daily": true
+    },
+    {
+      "title": "💧 液压缓冲预热",
+      "time": "11:15",
+      "notes": "喝半杯温热海盐水/一小口纯肉垫底",
+      "priority": 1,
+      "repeat_daily": true
+    },
+    {
+      "title": "🥩 重装填与火力覆盖",
+      "time": "11:30",
+      "notes": "午餐肉菜打底+碳水最后+补剂（鱼油+Q10+D3/K2+B族×1）",
+      "priority": 1,
+      "repeat_daily": true
+    },
+    {
+      "title": "🔒 物理封关",
+      "time": "20:00",
+      "notes": "晚餐后立刻刷牙离席，锁定进食权限",
+      "priority": 1,
+      "repeat_daily": true
+    },
+    {
+      "title": "🔌 强制断电重置",
+      "time": "23:00",
+      "notes": "吞镁2000mg+降温18℃+扔手机闭眼",
+      "priority": 1,
+      "repeat_daily": true
+    }
+  ],
+  "tracking": [
+    {"name": "晨光曝光完成", "tag": "生化重构/晨光"},
+    {"name": "断食维持完成", "tag": "生化重构/断食"},
+    {"name": "午餐顺序完成", "tag": "生化重构/顺序"},
+    {"name": "补剂执行完成", "tag": "生化重构/补剂"},
+    {"name": "进食封关完成", "tag": "生化重构/封关"},
+    {"name": "睡前断电完成", "tag": "生化重构/睡眠"}
+  ]
+}
