@@ -41,7 +41,14 @@ python3 scripts/create_reminder.py '{
 
 ### 方式二：AI 助手使用
 
-将此 Skill 放到 CodeBuddy 的 Skills 目录下，然后在对话中：
+将此 Skill 放到 AI 助手的 Skills 目录下：
+
+| AI 助手 | Skills 目录 |
+|---------|------------|
+| **CodeBuddy** | `Skills/Skill/03-daily-reminder-automation/` |
+| **Claude Code** | `~/.claude/skills/daily-reminder-automation/` |
+
+然后在对话中：
 
 ```
 用户: 帮我设置每天低碳水提醒
@@ -59,6 +66,7 @@ AI: [自动解析 → 创建提醒 → 生成笔记]
 ```
 daily-reminder-automation/
 ├── README.md                 # 本文件
+├── SKILL.md                  # AI 助手 Skill 定义
 ├── install.sh                # 一键安装脚本
 ├── scripts/
 │   ├── create_reminder.py    # 创建 Apple 提醒
@@ -149,6 +157,17 @@ pip3 install pyobjc-framework-EventKit
 - **iPhone**：提醒事项 App（需登录同一 Apple ID）
 - **Mac**：提醒事项 App
 - **Apple Watch**：提醒事项 Complication
+
+---
+
+## 🤝 适配的 AI 助手
+
+| AI 助手 | 支持状态 | 使用方式 |
+|---------|---------|---------|
+| **CodeBuddy** | ✅ 完全支持 | 放入 Skills 目录 |
+| **Claude Code** | ✅ 完全支持 | 放入 skills 目录 |
+| **Cursor** | ✅ 完全支持 | 放入 .cursor/skills/ |
+| **命令行** | ✅ 完全支持 | 直接运行脚本 |
 
 ---
 
